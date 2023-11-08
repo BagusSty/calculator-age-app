@@ -220,6 +220,18 @@ export default {
         </div>
       </div>
     </div>
+    <div class="attribution text-center">
+      Challenge by
+      <a
+        class="hover:text-customPurple"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a class="hover:text-customPurple" href="https://github.com/BagusSty"
+        >Bagus Setyo</a
+      >.
+    </div>
   </main>
 </template>
 
