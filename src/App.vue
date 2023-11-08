@@ -197,18 +197,24 @@ export default {
         </div>
         <div class="mt-3 sm:text-7xl text-5xl">
           <div class="flex m-auto">
-            <h1 class="text-customPurple font-bold" v-if="!dateResult">--</h1>
-            <h1 class="text-customPurple font-bold" v-else>{{ years }}</h1>
+            <h1 class="text-customPurple font-bold mr-3" v-if="!dateResult">
+              --
+            </h1>
+            <h1 class="text-customPurple font-bold mr-3" v-else>{{ years }}</h1>
             <h1 class="text-offBlack font-bold italic">years</h1>
           </div>
           <div class="flex m-auto">
-            <h1 class="text-customPurple font-bold" v-if="!dateResult">--</h1>
-            <h1 class="text-customPurple font-bold" v-else>{{ month }}</h1>
+            <h1 class="text-customPurple font-bold mr-3" v-if="!dateResult">
+              --
+            </h1>
+            <h1 class="text-customPurple font-bold mr-3" v-else>{{ month }}</h1>
             <h1 class="text-offBlack font-bold italic">months</h1>
           </div>
           <div class="flex m-auto">
-            <h1 class="text-customPurple font-bold" v-if="!dateResult">--</h1>
-            <h1 class="text-customPurple font-bold" v-else>{{ days }}</h1>
+            <h1 class="text-customPurple font-bold mr-3" v-if="!dateResult">
+              --
+            </h1>
+            <h1 class="text-customPurple font-bold mr-3" v-else>{{ days }}</h1>
             <h1 class="text-offBlack font-bold italic">days</h1>
           </div>
         </div>
